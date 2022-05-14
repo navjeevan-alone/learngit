@@ -12,6 +12,11 @@
   --shadow: #bdbdbd;
   --shadow-color-2-1: #3135384d;
   --shadow-color-2-2: #3c404326;
+  /* utility colors */
+  --info: #00b8d9;
+  --warning: #ffab00;
+  --danger: #f24329;
+  --success: #36b37e;
 }
 /*  dark pallete*/
 body {

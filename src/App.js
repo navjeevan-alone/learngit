@@ -2,26 +2,31 @@ import "./css/App.css";
 import "./css/Styles.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import TagsInput from "./components/TagsInput";
+// import TagsInput from "./components/TagsInput";
 // import AnimatedRoutes from "./components/AnimatedRoutes";
 // this is comment added for testing git
 import Home from "./components/Home";
+import Message from "./components/Message";
 import Create from "./components/Create";
 import BlogDetails from "./components/BlogDetails";
 import Update from "./components/Update";
 import Error from "./components/Error";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const date = new Date();
-  let time = `${date.getDate()}-${
+  let time = ` ${date.getDate()}/${
     date.getMonth() + 1
-  }-${date.getFullYear()} ${date.getHours()}:${date.getMinutes()} 
+  }/${date.getFullYear()} ${date.getHours()}:${date.getMinutes()} 
     `;
 
   return (
     <div className="App">
       <Navbar />
+      <Message message="demo message" variant="info" />
+      <Message message="demo message" variant="success" />
+      <Message message="demo message" variant="warning" />
+      <Message message="demo message" variant="danger" />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Create time={time} />} />

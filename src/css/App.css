@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @import url("./palette.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -523,4 +524,52 @@ nav {
 
 .tag-item:hover::after {
   border-left-color: crimson;
+}
+/* alert and other components */
+.message {
+  max-width: 1200px;
+  min-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4rem auto;
+  padding: 0.1rem 0rem 0.1rem 1.2rem;
+  font-size: 16px !important;
+  border-radius: 5px;
+  position: relative;
+  background: #fff;
+  box-shadow: 0 4px 4px var(--shadow-color-2-2);
+  color: var(--info);
+  gap: 0.5rem;
+  overflow: hidden;
+}
+.message::before {
+  content: "";
+  position: absolute;
+  background: var(--info);
+  height: 100%;
+  width: 8px;
+  left: 0;
+  top: 0;
+}
+/* .message.info {
+  background: var(--info);
+  --info: var(--info);
+} */
+.message.success {
+  --info: var(--success);
+}
+.message.warning {
+  --info: var(--warning);
+}
+.message.danger {
+  --info: var(--danger);
+}
+.message .message-text {
+  padding: 0.4rem 0;
+  flex-grow: 1;
+}
+.message span.clear-btn {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.5rem;
 }

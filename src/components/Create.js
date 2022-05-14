@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-// import TagsInput from "./TagsInput";
+import TagsInput from "./TagsInput";
 function Create({ time }) {
   document.title = `Ninja Blogs | Create Blog`;
   let navigate = useNavigate();
@@ -42,7 +42,7 @@ function Create({ time }) {
       <h2 className="blog-section-title">Add New Blog</h2>
       <form
         className="create-blog"
-        onSubmit={handleSubmit}
+        // onSubmit={handleSubmit}
         onkeydown="return event.key != 'Enter';">
         <div className="form-group">
           <label htmlFor="title">Title</label>
@@ -85,21 +85,13 @@ function Create({ time }) {
             <option value="diana">diana</option>
           </select>
         </div>
-        {/* <div className="form-group">
-          <label htmlFor="tags">Tags</label>
-          <input
-            type="text"
-            name="tags"
-            id="tags"
-            value={tags}
-            onChange={(e) => {
-              setTags(e.target.value);
-            }}
-          />
-        </div> */}
-        {/* <TagsInput /> */}
+
+        <TagsInput />
         <div className="btn-group ">
-          <button type="submit" className="btn btn-primary icon-btn">
+          <button
+            type="button "
+            onClick={handleSubmit}
+            className="btn btn-primary icon-btn">
             <span className="material-icons">add</span>
             <p>Add</p>
           </button>
