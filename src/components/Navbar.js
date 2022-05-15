@@ -26,10 +26,10 @@ function Navbar() {
           <Link className="nav-item" to="/">
             Home
           </Link>
-          <Link
-            className="nav-item"
-            className="btn btn-primary icon-btn"
-            to="/create">
+          <Link className="nav-item" to="/products">
+            Products
+          </Link>
+          <Link className=" nav-item btn btn-primary icon-btn" to="/create">
             <span className="material-icons">add</span>
             <p>Add</p>
           </Link>

@@ -4,10 +4,7 @@
       "title": "First Blog is now second blog",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloremque totam. Unde consectetur nemo, magnam consequuntur numquam eum soluta 0 Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
       "author": "jim",
-      "tags": [
-        "tag-1",
-        "tag-2"
-      ],
+      "tags": ["tag-1", "tag-2"],
       "timestamp": "26-4-2022 12:39",
       "id": 1
     },
@@ -15,10 +12,7 @@
       "title": "Latest News",
       "body": " Placeat in maiores at nam minima sed hic. Commodi cumque tenetur ipsum magni? ",
       "author": "diana",
-      "tags": [
-        "tag-1",
-        "tag-2"
-      ],
+      "tags": ["tag-1", "tag-2"],
       "timestamp": "25-04-2022",
       "id": 2
     },
@@ -26,10 +20,7 @@
       "title": "My friend updated ",
       "body": "Dolore quaerat et eaque dolores, ad debitis recusandae quidem!",
       "author": "jim",
-      "tags": [
-        "tag-1",
-        "tag-2"
-      ],
+      "tags": ["tag-1", "tag-2"],
       "timestamp": "26-4-2022 12:39",
       "id": 3
     },
@@ -37,10 +28,7 @@
       "title": "navjeevan",
       "body": "alone",
       "author": "jim",
-      "tags": [
-        "tag-1",
-        "tag-2"
-      ],
+      "tags": ["tag-1", "tag-2"],
       "timestamp": "1-5-2022 10:18 \n    ",
       "id": 4
     },
@@ -48,12 +36,83 @@
       "title": "new blog added",
       "body": "navjeevan",
       "author": "jim",
-      "tags": [
-        "tag-1",
-        "tag-2"
-      ],
+      "tags": ["tag-1", "tag-2"],
       "timestamp": "14-5-2022 12:8 \n    ",
       "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "img": "img/headphones.jpg",
+      "name": "OnePlus Earphones",
+      "description": "OnePlus Bullets Wireless Z2 Bluetooth in Ear Earphones with mic, Bombastic Bass – 12.4 mm Drivers, 10 Mins Charge – 20 Hrs Music, 30 Hrs Battery Life, IP55 Dust & Water Resistant (Magico Black)",
+      "price": 1999,
+      "isSelected": true,
+      "category": "headphones"
+    },
+    {
+      "id": 2,
+      "img": "img/mobile.jpg",
+      "name": "Redmi 9A ",
+      "description": "Redmi 9A Sport (Coral Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery",
+      "price": 6999,
+      "isSelected": true,
+      "category": "mobile"
+    },
+    {
+      "id": 3,
+      "img": "img/headphones2.jpg",
+      "name": "boAt Airdopess Earphones",
+      "description": " boAt Airdopess Earphones 121v2 True Wireless Earbuds with Upto 14 Hours Playback, Lightweight Earbuds, 8MM Drivers, LED Indicators and Multifunction Controls(Active Black)",
+      "price": 1299,
+      "isSelected": false,
+      "category": "headphones"
+    },
+    {
+      "id": 4,
+      "img": "img/mobile2.jpg",
+      "name": "OnePlus Nord CE 2",
+      "description": "OnePlus Nord CE 2 Lite 5G (Black Dusk, 6GB RAM, 128GB Storage)",
+      "price": 19999,
+      "isSelected": false,
+      "category": "mobile"
+    },
+    {
+      "id": 5,
+      "img": "img/lenevo.jpg",
+      "name": "Lenovo IdeaPad 3",
+      "description": "Lenovo IdeaPad 3 Intel Celeron N4020 14'' HD Thin & Light Laptop (4GB/256GB SSD/Windows 11/MS Office 2021/Platinum Grey/1.5Kg), 81WH007KIN",
+      "price": 29999,
+      "isSelected": false,
+      "category": "laptops"
+    },
+    {
+      "id": 6,
+      "img": "img/macbook.jpg",
+      "name": "Apple MacBook Air Laptop",
+      "description": "2020 Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Gold",
+      "price": 85990,
+      "isSelected": false,
+      "category": "laptops"
+    },
+    {
+      "id": 7,
+      "img": "img/watch.jpg",
+      "name": "Noise ColorFit Pro 2",
+      "description": "Noise ColorFit Pro 2 Full Touch Control Smart Watch with 35g Weight & Upgraded LCD Display,IP68 Waterproof,Heart Rate Monitor,Sleep & Step Tracker,Call & Message Alerts & Long Battery Life (Jet Black)",
+      "price": 2500,
+      "isSelected": false,
+      "category": "smartwatch"
+    },
+    {
+      "id": 8,
+      "img": "img/pentab.jpg",
+      "name": "Apple MacBook Air Laptop",
+      "description": "Wacom One by CTL-472/K0-CX Digital Drawing Graphics Pen Tablet (Red & Black) Small (6-inch x 3.5-inch) | Battery Free Cordless Pen with 2048 Pressure Level",
+      "price": 3000,
+      "isSelected": false,
+      "category": "pentabs"
     }
   ]
 }

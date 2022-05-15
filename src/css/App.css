@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @import url("./palette.css");
+@import url("./products.css");
 
 * {
   margin: 0;
@@ -536,7 +537,7 @@ nav {
   font-size: 16px !important;
   border-radius: 5px;
   position: relative;
-  background: #fff;
+  background: var(--light);
   box-shadow: 0 4px 4px var(--shadow-color-2-2);
   color: var(--info);
   gap: 0.5rem;

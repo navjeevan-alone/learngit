@@ -6,8 +6,9 @@ import Footer from "./components/Footer";
 // import AnimatedRoutes from "./components/AnimatedRoutes";
 // this is comment added for testing git
 import Home from "./components/Home";
-import Message from "./components/Message";
+// import Message from "./components/Message";
 import Create from "./components/Create";
+import Products from "./components/Products";
 import BlogDetails from "./components/BlogDetails";
 import Update from "./components/Update";
 import Error from "./components/Error";
@@ -23,13 +24,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Message message="demo message" variant="info" />
+      {/* <Message message="demo message" variant="info" />
       <Message message="demo message" variant="success" />
       <Message message="demo message" variant="warning" />
-      <Message message="demo message" variant="danger" />
+      <Message message="demo message" variant="danger" /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Create time={time} />} />
+        <Route path="/products" element={<Products />} />
         <Route path="/blog/:id" element={<BlogDetails time={time} />} />
         <Route path="/blog/edit/:id" element={<Update time={time} />} />
         <Route path="*" element={<Error />} />
